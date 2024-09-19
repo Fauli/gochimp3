@@ -69,7 +69,7 @@ func (q *BasicQueryParams) Params() map[string]string {
 		"sort_dir":           q.SortDirection,
 		"fields":             strings.Join(q.Fields, ","),
 		"exclude_fields":     strings.Join(q.ExcludeFields, ","),
-		"since_last_changed": q.SinceLastChanged
+		"since_last_changed": q.SinceLastChanged,
 	}
 }
 
